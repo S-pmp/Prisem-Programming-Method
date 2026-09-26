@@ -14,7 +14,7 @@ A new programming architecture that separates grammar and logic into an Outer St
 
 このリポジトリは、以下の技術思想を体系化した **外側OS（Outer Structure OS）** の原典です。
 
-- 文法（10アクション）を外側に固定する  
+- 文法（10アクション）の定義を固定する  
 - ロジック（core）を黒箱化する  
 - public → model → core の3層構造  
 - 文法とロジックの完全分離  
@@ -33,8 +33,10 @@ A new programming architecture that separates grammar and logic into an Outer St
 アプリケーションの文法を外側に固定する。  
 ロジックは書かない。
 
- ● model（受け皿）
-外側の文法を受け取り、core に渡す。
+● model（受け皿）
+ 
+外側の要求を内部の意味へ変換する。
+外側とCoreを接続する翻訳層として機能する。
 
  ● core（ロジック・黒箱）
 実際の処理を行う部分。  
@@ -47,10 +49,11 @@ A new programming architecture that separates grammar and logic into an Outer St
 外側OSの中核となる概念。
 
 - 内部ロジック（core）は外部から見えない  
-- public と server を完全に分離  
-- 外側は文法だけ  
-- 内側はロジックだけ  
-- 外側から内部を改変できない  
+- public と server を完全に分離
+- DocumentRoot は public のみを指定する  
+- 公開領域は意味・文法・ロジックを持たない  
+- 内部領域は意味・文法・ロジックを管理する
+- 外部から Core を直接実行・改変できない  
 
 安全性・権利保護・市場性を支える基盤。
 
@@ -270,7 +273,7 @@ AIがコードを書く時代において、
 
 外側OSは以下の3層で構成される。
 
-- parts / flow（外側の文法）  
+- parts / flow（外側の制御構造）  
 - model（受け皿）  
 - core（ロジック）  
 
@@ -285,8 +288,8 @@ AIがコードを書く時代において、
 
 - 内部ロジック（core）は外部から見えない  
 - public と server を完全に分離する  
-- 外側は文法だけ  
-- 内側はロジックだけ  
+- 公開領域は意味・文法・ロジックを持たない  
+- 内部領域は意味・文法・ロジックを管理する 
 - 外側から内部を改変できない  
 
 黒箱は **安全性・権利保護・市場性** のすべてを支える。
