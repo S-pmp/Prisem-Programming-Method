@@ -13,7 +13,7 @@ The philosophy is closely related to component-based programming, modular softwa
 
 This repository documents the original philosophy and technical structure of the **Outer Structure OS (Outer OS)**, which is built on the following principles:
 
-- Fixing the grammar (10 Actions) on the outside  
+- Fixing the definition of the grammar (10 Actions)  
 - Black-boxing the internal logic (core)  
 - A three-layer structure: **public → model → core**  
 - Complete separation of grammar and logic  
@@ -31,8 +31,9 @@ The Outer OS consists of the following **three layers**:
 ### 2.1 parts / flow (Outer Grammar)
 Defines the application grammar externally. No logic is written here.
 
-### 2.2 model (Receiver Layer)
-Receives the outer grammar and passes it to the core.
+### 2.2 model (Translation Layer)
+
+Receives requests from the outer structure and translates them into internal meanings before passing them to the core.
 
 ### 2.3 core (Logic / Black Box)
 Executes the actual processing. Completely separated from the outer grammar.
@@ -43,11 +44,12 @@ Executes the actual processing. Completely separated from the outer grammar.
 
 The core concept of the Outer OS:
 
-- Internal logic (core) is invisible from the outside  
-- Complete separation of **public** and **server**  
-- The outside contains only grammar  
-- The inside contains only logic  
-- The outside cannot modify the internal logic  
+- Internal logic (core) is invisible from the outside
+- Complete separation of public and server
+- Only public is exposed through the DocumentRoot
+- The public area contains no meaning, grammar, or logic
+- The internal area manages meaning, grammar, and logic
+- The outside cannot directly execute or modify the core
 
 This architecture ensures **safety, rights protection, and market scalability**.
 
@@ -237,7 +239,7 @@ The Outer OS fixes the grammar externally and allows the internal logic to be fr
 It consists of:
 
 - parts / flow (outer grammar)  
-- model (receiver)  
+- model (Translation Layer)  
 - core (logic)  
 
 This achieves **complete separation of grammar and logic**.
@@ -248,11 +250,12 @@ This achieves **complete separation of grammar and logic**.
 
 A black box means:
 
-- Internal logic is invisible  
-- public and server are fully separated  
-- Outside = grammar  
-- Inside = logic  
-- Outside cannot modify the inside  
+- Internal logic (core) is invisible from the outside
+- public and server are fully separated
+- Only public is exposed through the DocumentRoot
+- The public area contains no meaning, grammar, or logic
+- The internal area manages meaning, grammar, and logic
+- The outside cannot directly modify the inside 
 
 This supports **safety, rights protection, and market scalability**.
 
