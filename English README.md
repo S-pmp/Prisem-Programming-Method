@@ -1,4 +1,4 @@
-# Plamodel-Style Programming Philosophy
+# Prisem Programming Method (PMP)
 ## The Original Doctrine of the Outer OS, Grammar Specification, and Black-Box Architecture
 **Author: S (Shou)**
 
@@ -103,7 +103,7 @@ Below is the full original doctrine written by **S**, preserved exactly as autho
 
 ---
 
-# Plamodel-Style Programming Philosophy — Original Doctrine
+# Prisem Programming Method — Original Doctrine
 
 ## 7.1 Background of This Philosophy
 
