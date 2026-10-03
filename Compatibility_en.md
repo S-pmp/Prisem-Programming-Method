@@ -1,6 +1,6 @@
 # Compatibility (Interoperability / Integration)
 
-PMP (php-plamodel-method) achieves “outer fixation × 10 grammar actions × unified logic”
+PMP (Prisem Programming Method) achieves “outer fixation × 10 grammar actions × unified logic”
 and therefore coexists with existing frameworks, low-code tools, and API-based architectures
 without conflict.  
 Because the outer OS holds **no logic**, and fully separates UI, grammar, and core logic,
