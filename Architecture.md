@@ -3,7 +3,7 @@
 外側OS（Outer OS）は、アプリケーションの安全性・拡張性・一貫性を最大化するために  
 「外側固定 × 文法10アクション × ロジック一本化」という構造原則に基づいて設計されています。
 
-この文書は、PMP（php-plamodel-method）が採用する構造思想を体系的にまとめたものです。  
+この文書は、PMP（Prisem Programming Method）が採用する構造思想を体系的にまとめたものです。  
 README は入口、SPEC_APPENDIX は仕様、Overview は構造図、Compatibility は外部との関係を示しますが、  
 Architecture.md は **外側OSの“思想そのもの”** を記述します。
 
