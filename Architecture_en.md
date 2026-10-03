@@ -5,7 +5,7 @@ It is built on three core principles:
 
 **Outer Fixation × Grammar 10 Actions × Black Box Logic**
 
-This document summarizes the architectural philosophy adopted by PMP (php-plamodel-method).  
+This document summarizes the architectural philosophy adopted by PMP (Prisem Programming Method).  
 While the README serves as the entry point, the SPEC_APPENDIX defines the specification,  
 the Overview illustrates the structure, and the Compatibility document explains external relations,  
 **Architecture.md describes the philosophy of the Outer OS itself.**
