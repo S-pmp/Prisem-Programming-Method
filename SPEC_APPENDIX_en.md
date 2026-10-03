@@ -2,7 +2,7 @@
 
 ## Purpose
 
-PMP (php-plamodel-method) is a structural framework designed to achieve  
+PMP (Prisem Programming Method) is a structural framework designed to achieve  
 **outer fixation × 10 grammar actions × unified logic**.
 
 Its purpose is to fully separate the UI layer, grammar layer, and logic layer,  
