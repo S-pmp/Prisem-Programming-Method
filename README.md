@@ -1,4 +1,4 @@
-### 意味構造プログラミング思想  
+# 意味構造プログラミング思想  
 Prisem Programming Method (PMP)
 
 ## 外側OS・文法規格・黒箱アーキテクチャの原典（S）  
@@ -9,7 +9,7 @@ A new programming architecture that separates grammar and logic into an Outer St
     本リポジトリはその **外側OS（Outer Structure OS）** の公式ドキュメントです。
 
 ---
-# 定義
+## 定義
 
 PMP（Prisem Programming Method）は、
 
