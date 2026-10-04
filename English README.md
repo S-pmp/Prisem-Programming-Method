@@ -9,6 +9,14 @@ The philosophy is closely related to component-based programming, modular softwa
 
 ---
 
+## Definition
+
+Prisem Programming Method (PMP) is a programming philosophy and structural framework that separates Semantics, Grammar, and Execution.
+
+By standardizing information structures and separating public and execution domains through the Outer Structure OS, PMP redefines programming from the act of writing code into the act of designing information structures.
+
+The Outer Structure OS and Black-Box Architecture serve as implementation mechanisms for this principle.
+
 # 1. Purpose of This Repository
 
 This repository documents the original philosophy and technical structure of the **Outer Structure OS (Outer OS)**, which is built on the following principles:
@@ -118,17 +126,20 @@ Modern programming assumes that “writing code” is the default. However, in r
 This situation has reached a **structural limit**.
 
 Therefore, I proposed a philosophy that transforms programming from  
-**“writing code” to “assembling components.”**
+**“writing code” to ““designing information structures.”**
 
 ---
 
-## 7.2 What Is the Plamodel-Style Approach?
+## 7.2 What Is the Prisem Programming Method?
 
-The Plamodel-Style approach means:
-
-**Creating program logic as “parts” and running them through “configuration” and “combination.”**
-
-Writing code is not the goal — it is merely a means to assemble parts.
+The Prisem Programming Method is a programming philosophy that separates
+Semantics, Grammar, and Execution.
+ 
+Program logic is treated as reusable parts,
+while behavior is controlled through structure, configuration, and composition.
+ 
+Writing code is not the goal.
+Designing information structures is the primary objective.
 
 ---
 
@@ -150,7 +161,7 @@ Writing code is not the goal — it is merely a means to assemble parts.
 - AI writes code  
 - Humans still learn “writing-first” programming  
 
-The Plamodel-Style approach solves these **structurally**.
+The Prisem Programming Method addresses these problems through structural separation.
 
 ---
 
@@ -163,7 +174,7 @@ Logic is extracted as parts: single-purpose, reusable, and robust.
 Parts can change behavior through configuration files. Beginners only need to edit settings.
 
 ### Combination
-Complex features emerge by combining parts — just like assembling a plastic model.
+Complex features emerge through the composition of Semantics, Grammar, and Execution.
 
 ### Rights Structure
 - Logic copyright belongs to the author  
@@ -178,7 +189,7 @@ More parts → more value. Network effects similar to the App Store.
 Works in PHP, JavaScript, Python, etc. The philosophy transcends technology.
 
 ### Alignment with the AI Era
-AI writes code. Humans handle **understanding, judgment, and assembly**.
+AI writes code. Humans define meaning, make judgments, and design structures.
 
 ---
 
@@ -242,7 +253,8 @@ It consists of:
 - model (Translation Layer)  
 - core (logic)  
 
-This achieves **complete separation of grammar and logic**.
+This achieves the structural separation of
+Semantics, Grammar, and Execution.
 
 ---
 
@@ -297,8 +309,12 @@ Internal logic (core/server) is **not included** and remains private.
 
 ## 7.14 Author’s Declaration
 
-This original specification covers documents such as Architecture, SPEC_APPENDIX, Overview, Compatibility, and Market_OS, which describe the concepts, structure, and grammar of the Outer OS and Civilization OS.  
-Internal logic (core/server) is private and not included in this specification.  
-All structural concepts, grammar definitions, and Outer OS ideas described here are part of an original system created by the author, S.  
-**Implementation or application of these concepts requires prior permission (license).**
+This original doctrine serves as the official source defining the philosophy, specifications, and structural framework of the PMP (Prisem Programming Method), centered around the separation of Semantics, Grammar, and Execution.
+ 
+This doctrine includes the Outer Structure OS and related specifications, standards, and derivative structures associated with it.
+ 
+Internal logic (core/server) remains private and is not included in this doctrine.
+ 
+All concepts, structures, grammar definitions, specifications, and related systems described in this doctrine constitute an original framework proposed, defined, and systematized by the author, S.  
+**Implementation, application, or commercial use of these concepts requires prior authorization and licensing from the author.**
 
