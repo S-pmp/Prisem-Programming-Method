@@ -2,7 +2,7 @@
 Prisem Programming Method (PMP)
 
 ## 外側OS・文法規格・黒箱アーキテクチャの原典（S）  
-A new programming architecture that separates grammar and logic into an Outer Structure OS.
+意味（Semantics）・文法（Grammar）・実行（Execution）を分離し、外側OS（Outer Structure OS）によって構造化するプログラミングアーキテクチャ。
 
 
 **本思想・外側OS・文法規格・黒箱構造は、S（しょう）によって提案・定義・体系化された正式な原典です。**  
