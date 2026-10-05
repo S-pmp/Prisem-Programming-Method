@@ -48,18 +48,23 @@ Executes the actual processing. Completely separated from the outer grammar.
 
 ---
 
-# 3. Black-Box Architecture
+# 3. Definition of the Black-Box Architecture
 
-The core concept of the Outer OS:
+The Black-Box Architecture is an architecture that structurally separates Semantics, Grammar, and Execution.
 
-- Internal logic (core) is invisible from the outside
-- Complete separation of public and server
-- Only public is exposed through the DocumentRoot
-- The public area contains no meaning, grammar, or logic
-- The internal area manages meaning, grammar, and logic
-- The outside cannot directly execute or modify the core
+The outer domain does not directly contain internal meanings, grammar definitions, or executable logic.
 
-This architecture ensures **safety, rights protection, and market scalability**.
+The inner domain manages Semantics, Grammar, and Execution independently and cannot be directly referenced, executed, or modified from outside the defined structure.
+
+Through this separation, the Black-Box Architecture provides:
+
+- Separation of responsibilities
+- Structural security
+- Rights protection
+- Market compatibility
+- Sustainable extensibility
+
+The Black-Box Architecture is a core principle of the Prisem Programming Method (PMP) and serves as a foundational implementation mechanism for the Outer Structure OS.
 
 ---
 
@@ -132,14 +137,10 @@ Therefore, I proposed a philosophy that transforms programming from
 
 ## 7.2 What Is the Prisem Programming Method?
 
-The Prisem Programming Method is a programming philosophy that separates
-Semantics, Grammar, and Execution.
- 
-Program logic is treated as reusable parts,
-while behavior is controlled through structure, configuration, and composition.
- 
-Writing code is not the goal.
-Designing information structures is the primary objective.
+The Prisem Programming Method (PMP) is a programming philosophy that separates Semantics, Grammar, and Execution.
+
+Rather than defining a specific implementation, PMP defines the structural relationships between meaning, grammar, and execution.
+`
 
 ---
 
