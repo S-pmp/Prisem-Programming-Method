@@ -13,7 +13,7 @@ The philosophy is closely related to component-based programming, modular softwa
 
 Prisem Programming Method (PMP) is a programming philosophy and structural framework that separates Semantics, Grammar, and Execution.
 
-By standardizing information structures and separating public and execution domains through the Outer Structure OS, PMP redefines programming from the act of writing code into the act of designing information structures.
+By structuring and standardizing information flows through the Outer Structure OS, PMP redefines programming from the act of writing code into the act of designing information structures.
 
 The Outer Structure OS and Black-Box Architecture serve as implementation mechanisms for this principle.
 
@@ -131,7 +131,7 @@ Modern programming assumes that “writing code” is the default. However, in r
 This situation has reached a **structural limit**.
 
 Therefore, I proposed a philosophy that transforms programming from  
-**“writing code” to ““designing information structures.”**
+**“writing code” to “designing information structures.”**
 
 ---
 
@@ -140,7 +140,6 @@ Therefore, I proposed a philosophy that transforms programming from
 The Prisem Programming Method (PMP) is a programming philosophy that separates Semantics, Grammar, and Execution.
 
 Rather than defining a specific implementation, PMP defines the structural relationships between meaning, grammar, and execution.
-`
 
 ---
 
@@ -169,7 +168,7 @@ The Prisem Programming Method addresses these problems through structural separa
 ## 7.4 Core Structure of the Philosophy
 
 ### Componentization
-Logic is extracted as parts: single-purpose, reusable, and robust.
+Execution is organized into reusable units that remain independent from Semantics and Grammar.
 
 ### Configuration
 Parts can change behavior through configuration files. Beginners only need to edit settings.
