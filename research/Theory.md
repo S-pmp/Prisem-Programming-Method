@@ -22,10 +22,16 @@
 PMPは当初、
 
 Parts
+
 ↓
+
 Model
+
 ↓
-Coreおよび10 Actionによって構築されたソフトウェアアーキテクチャとして設計された。
+
+Core
+
+および10 Actionによって構築されたソフトウェアアーキテクチャとして設計された。
 しかし設計後、AI、セキュリティ、データベース、認証、API、権限管理、OSなどを観察していく過程で、一つの疑問が発生した。
 それは、「なぜPMPはその構造になったのか」という問いである。本資料はPMPそのものではなく、「なぜその構造が生まれたのか」
 を説明するための理論的整理である。
@@ -46,9 +52,13 @@ PMPは、プログラミングを「コードを書く行為」ではなく、�
 PMPは次の3層を分離する。
 
 Semantics
+
 ↓
+
 Grammar
+
 ↓
+
 Execution
 
 
@@ -93,13 +103,21 @@ Execution
 より上位に次の構造が存在する可能性がある。
 
 Value
+
 ↓
+
 Authority
+
 ↓
+
 Meaning
+
 ↓
+
 Grammar
+
 ↓
+
 Execution
 
 ---
@@ -173,13 +191,21 @@ PMPを考察する過程で、次の観察結果が得られた。多くの攻�
 権限が増加すると、
 
 Authority
+
 ↓
+
 Access Scope
+
 ↓
+
 Complexity
+
 ↓
+
 Monitoring
+
 ↓
+
 Operational Cost
 
 という連鎖が発生する。
@@ -192,7 +218,9 @@ Operational Cost
 例えば、
 
 監視
+
 ↓
+
 異常発見
 
 ではなく、
@@ -262,23 +290,33 @@ PMPは、価値そのものではなく、価値へ到達する仕組みを分�
 例：
 
 System
+
 ↓
+
 PMP
 
 Database
+
 ↓
+
 PMP
 
 API
+
 ↓
+
 PMP
 
 Authentication
+
 ↓
+
 PMP
 
 Operating System
+
 ↓
+
 PMP
 
 ---
@@ -286,9 +324,13 @@ PMP
 さらに、一つのPMP内部にも小さなPMPが存在する可能性がある。
 
 PMP
+
 ↓
+
 PMP
+
 ↓
+
 PMP
 
 ---
