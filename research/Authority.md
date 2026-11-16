@@ -164,13 +164,21 @@ Authorityは構造上の攻撃面の一部になり得る。
 権限が増加すると、
 
 Authority
+
 ↓
+
 Access Scope
+
 ↓
+
 Complexity
+
 ↓
+
 Monitoring
+
 ↓
+
 Operational Cost
 
 という連鎖が発生する可能性がある。
@@ -265,7 +273,9 @@ Root権限へ価値が集中することである。
 つまり、
 
 Root取得
+
 ↓
+
 全価値取得
 
 になってしまう構造に課題がある。
@@ -319,12 +329,15 @@ DBを観察すると、
 つまり、
 
 認証
+
 ↓
 
 Authority
+
 ↓
 
 Meaning
+
 ↓
 
 Value
@@ -338,13 +351,21 @@ Value
 PMPでは、
 
 Value
+
 ↓
+
 Authority
+
 ↓
+
 Meaning
+
 ↓
+
 Grammar
+
 ↓
+
 Execution
 
 という情報価値の流れを仮定している。
